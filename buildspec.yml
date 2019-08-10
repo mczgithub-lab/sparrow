@@ -20,7 +20,7 @@ phases:
   pre_build:
     commands:
       - echo Entered the pre_build phase...
-      - npm test
+##      - npm test
       - rm -rf node_modules
 #      - docker login –u User –p $LOGIN_PASSWORD
     finally:
